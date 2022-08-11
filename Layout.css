@@ -1,0 +1,51 @@
+body.body-main {
+    display: flex;
+    height: 100%;
+    margin: 0px;
+}
+
+.left-side {
+    font-size: 30px;
+    background: gainsboro;
+    height: 100%;
+    width: 25%;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+.head {
+    background: yellowgreen;
+    height: 10%;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.body-main.Container {
+    display: flex;
+    height: 90%;
+}
+
+.Left {
+    width: 75%;
+    font-size: xx-large;
+}
+
+.Content {
+    height: 80%;
+}
+
+.Right {
+    width: 25%;
+    background: aliceblue;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.Footer {
+    background: yellowgreen;
+    height: 20%;
+}
